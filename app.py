@@ -96,7 +96,7 @@ def main():
     if user_question:
         handle_userinput(user_question)
     
-    st.write(user_template.replace("{{MSG}}", "Hello Kaustav"), unsafe_allow_html = True)
+    st.write(user_template.replace("{{MSG}}", "Hello Vrinda"), unsafe_allow_html = True)
     st.write(bot_template.replace("{{MSG}}", "Hello Human"), unsafe_allow_html = True) 
     
     
